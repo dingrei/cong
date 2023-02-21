@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+a,img{
+    display: block;
+}
+img,input{
+    border:none;
+    outline: none;
+}
+.w1200{
+    width: 1200px;
+}
+.oh{
+    overflow: hidden;
+}
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 55px;
+    height: 55px;
+    background:url(../images/logo2.png) no-repeat 0 center;
+    margin:11px 16px 11px 100px ;
+    float: left;
+}
+.k-type>li{
+    font-size: 14px;
+    color: #989898;
+    margin: 28px 10px;
+    float: left;
+    cursor: pointer;
+}
+.k-type>li:hover{
+    color: #ffffff;
+}
+.pic{
+    width: 1200px;
+    height: 302px;
+    background: url(../images/pic7.1.png) no-repeat 0 center;
+    margin: 0 auto;
+    position: relative;
+}
+.pic>p{
+    color: #f0f0f0;
+    font-size: 32px;
+    margin: 135px 100px;
+    position: absolute;
+}
+.it{
+    font-size: 24px;
+    color: #303030;
+
+}
+.it>li{
+    float: left;
+    margin-right: 40px;
+}
+.box{
+    margin: 50px auto;
+}
+.b-title{
+    font-size: 32px;
+    margin: 40px 0;
+}
+.gallery{
+    margin: 40px;
+    float:left;
+    width: 300px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+}
+.desc{
+    margin-left: 30px;
+}
+.desc>h6{
+    font-size: 24px;
+}
+.line{
+    border: 5px solid red;
+}
+.contact{
+    font-size: 20px;
+    color: #f3f3f3;
+    margin:20px 0 0 90px ;
+}
+.sy>li{
+    float: left;
+}
+.wb{
+    width: 45px;
+    height: 45px;
+    background: url(../images/wb.png)no-repeat;
+    margin: 10px 10px;
+}
+.vx{
+    width: 45px;
+    height: 45px;
+    background: url(../images/vx.png) no-repeat;
+    margin: 10px 10px;
+}
+.tel{
+    width: 45px;
+    height: 45px;
+    background: url(../images/lianxi.png) no-repeat;
+    margin: 10px 10px;
+}
+.qr{
+    width: 45px;
+    height: 45px;
+    background: url(../images/qr.png) no-repeat;
+    margin: 10px 10px;
+}
+.line1{
+    width: 1100px;
+    border: 1px solid #bbb;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ft{
+    float: left;
+}
+.ft>p{
+    font-size: 22px;
+    color: #f0f0f0;
+    margin-left: 50px;
+    cursor: pointer;
+    
+}
+.ft>li{
+    font-size: 16px;
+    color: #999;
+    margin: 10px 50px;
+    cursor: pointer;
+}
+
+.f-menu1>li{
+    font-size: 18px;
+    color: #f0f0f0;
+    float: left;
+    margin: 20px 75px;
+    cursor: pointer;
+}
+.f-menu2>li{
+    font-size: 18px;
+    color: #f0f0f0;
+    float: left;
+    margin: 20px 76px;
+    cursor: pointer;
+}
+.ft>li:hover{
+    color: #f0f0f0;
+}

@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+a,img{
+    display: block;
+    color: #333333;
+}
+img,input{
+    border:none;
+    outline: none;
+}
+.w1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+.oh{
+    overflow: hidden;
+}
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+}
+.logo{
+    width: 55px;
+    height: 55px;
+    background:url(../images/logo.png) no-repeat 0 center;
+    margin:11px 16px 11px 100px ;
+    float: left;
+}
+.menu{
+    font-size: 14px;
+    color: #333333;
+    margin: 28px 10px;
+    float: left;
+    position: relative;
+}
+.menu a:hover{
+    color: rgba(255, 38, 0, 0.925);
+}
+
+.menu:hover .submenu{
+    display:block;
+}
+.submenu{
+    position:absolute;
+    width:80px;
+    left:0;
+    top:18px;
+    background:#fff;
+    z-index:9999;
+    display:none;
+    border:#ddd 1px solid;
+}
+.search{
+    float: right;
+    overflow: hidden;
+}
+
+.touxi{
+    width: 23px;
+    height: 23px;
+    background: url(../images/toux.png) no-repeat 0 center;
+    margin: 28px 3px;
+    float: left;
+}
+.log{
+    font-size: 16px;
+    color: rog(0,0,1);
+    margin: 28px 3px;
+    float: left;
+    cursor: pointer;
+}
+.log:hover{
+    color: red;
+}
+.lang{
+    width: 21px;
+    height: 16px;
+    background: url(../images/guoqi.png) no-repeat 0 center;
+    margin: 28px 124px 36px 3px;
+    float: left;
+}
+.pic{
+    width: 1200px;
+    height:433px;
+    background: url(../images/pic4.png) no-repeat 0 center;
+    background-size: contain;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.make{
+    width: 268px;
+    background-color: #f3f3f3;
+    margin-left: 101px;
+    padding-bottom: 1px;
+    z-index: 999;
+    float: left;
+}
+.title{
+    width: 1200px;
+    margin: 2px auto;
+    overflow: hidden;
+    background-color: red;
+}
+.t-type>li{
+    font-size: 16px;
+    text-indent: 2em;
+    color: #f0f0f0;
+    margin: 30px 20px;
+    float: left;
+    cursor: pointer;
+}
+.t-type :first-child{
+    margin-left: 65px;
+}
+.serve{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.si{
+    font-size: 32px;
+    color: #333333;
+    margin: 30px 500px;
+}
+.sr{
+    overflow: hidden;
+    margin: 0 auto;
+}
+.sr>li{
+    font-size: 16px;
+    color: rgb(0,0,0,0.5);
+    float: left;
+    margin: 0 73px;
+}
+.sr>li:hover{
+    color: red;
+}
+.sr :first-child{
+    margin-left: 130px;
+}
+.ib{
+    overflow: hidden;
+    margin: 35px auto;
+}
+.ep{
+    width:486px ;
+    height: 173px;
+    background: url(../images/pic25.png) no-repeat 0 center;
+    float: left;
+    margin:0 45px 0 65px;
+    }
+.sf{
+    width: 486px;
+    height: 173px;
+    background: url(../images/pic26.png) no-repeat 0 center;
+    float: left;
+    margin: 0 45px;
+}
+.t{
+    width: 486px;
+    height: 75px;
+    float: left;
+    margin:-35px 30px 0 62px ;
+    cursor: pointer;
+}
+.t:hover{
+    background-color: red;
+}
+.text{
+    font-size: 22px;
+}
+.news{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.n-title{
+    overflow: hidden;
+}
+.text2{
+    float: left;
+    font-size: 32px;
+    margin: 35px 500px;
+}
+#frame{
+    width: 79px;
+    line-height: 27px;
+    float: right;
+    border: 1px solid #ddd;
+}
+.n-box{
+    margin-left: 20px ;
+    cursor: pointer;
+}
+.n-box>li{
+    width: 486px;
+    height: 125px;
+    float: left;
+    padding-left: 180px;
+    margin: 20px 40px;
+    border: 1px solid #ddd;
+}
+.pic1>h6{
+    font-size: 16px;
+}
+.pic1>p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.pic2>h6{
+    font-size: 16px;
+}
+.pic2>p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.pic3>h6{
+    font-size: 16px;
+}
+.pic3>p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.pic4>h6{
+    font-size: 16px;
+}
+.pic4>p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.pic1{
+    width: 165px;
+    height: 118px;
+    background: url(../images/pic21.png) no-repeat 0 0;
+
+}
+.pic2{
+    width: 165px;
+    height: 118px;
+    background: url(../images/pic22.png) no-repeat 0 0;
+}
+.pic3{
+    width: 165px;
+    height: 118px;
+    background: url(../images/pic23.png) no-repeat 0 0;
+}
+.pic4{
+    width: 165px;
+    height: 118px;
+    background: url(../images/pic24.png) no-repeat 0 0;
+}
+.n-box:hover{
+    background-color: red;
+}
+.line{
+    border: 5px solid red;
+}
+.contact{
+    font-size: 20px;
+    color: #f3f3f3;
+    margin:20px 0 0 90px ;
+}
+.sy>li{
+    float: left;
+}
+.wb{
+    width: 45px;
+    height: 45px;
+    background: url(../images/wb.png)no-repeat;
+    margin: 10px 10px;
+}
+.vx{
+    width: 45px;
+    height: 45px;
+    background: url(../images/vx.png) no-repeat;
+    margin: 10px 10px;
+}
+.tel{
+    width: 45px;
+    height: 45px;
+    background: url(../images/lianxi.png) no-repeat;
+    margin: 10px 10px;
+}
+.qr{
+    width: 45px;
+    height: 45px;
+    background: url(../images/qr.png) no-repeat;
+    margin: 10px 10px;
+}
+.line1{
+    width: 1100px;
+    border: 1px solid #bbb;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ft{
+    float: left;
+}
+.ft>p{
+    font-size: 22px;
+    color: #f0f0f0;
+    margin-left: 50px;
+    cursor: pointer;
+    
+}
+.ft>li{
+    font-size: 16px;
+    color: #999;
+    margin: 10px 50px;
+    cursor: pointer;
+}
+
+.f-menu1>li{
+    font-size: 18px;
+    color: #f0f0f0;
+    float: left;
+    margin: 20px 75px;
+    cursor: pointer;
+}
+.f-menu2>li{
+    font-size: 18px;
+    color: #f0f0f0;
+    float: left;
+    margin: 20px 76px;
+    cursor: pointer;
+}
+.ft>li:hover{
+    color: #f0f0f0;
+}
